@@ -66,11 +66,24 @@ layout: default
                 <!-- 网易云跟帖 评论框 end -->
                 {% endif %}
 				
-			<!-- Valine 评论框 start -->
-	       {% if site.valine.enable %}
-                {% include valine.html %}
-           {% endif %}
-	       <!-- Valine 评论框 end -->
+				<!-- Valine 评论框 start -->
+				{% if site.valine.enable %}
+				<div id="comments"></div>
+
+					<!--Leancloud 操作库:-->
+					<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+					<!--Valine 的核心代码库:-->
+					<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+					<script>
+						 new Valine({
+							el: '#comments',
+							app_id: '{{ site.valine.appid }}',
+							app_key: '{{ site.valine.appkey }}',
+							placeholder: '{{ site.valine.placeholder }}',
+						})
+					</script>
+				 {% endif %}
+				<!-- Valine 评论框 end -->
 				
             </div>  
 
@@ -182,4 +195,6 @@ layout: default
     }
 </style>
 {% endif %}
+
+
 
