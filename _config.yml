@@ -111,3 +111,14 @@ friends: [
     }
 
 ]
+
+
+valine_comment:
+  enable: true
+# app_id
+  leancloud_appid: Iyvk2GuWouA0FTJAC6xoCRwT-gzGzoHsz
+# app_key
+  leancloud_appkey: wufI4HRteXarydeEPr2uBTAV
+# placeholde
+  placeholder: “Just go go"
+
