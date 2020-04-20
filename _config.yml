@@ -113,12 +113,18 @@ friends: [
 ]
 
 
-valine_comment:
+# Valine评论系统开关
+# Valine.
+# You can get your appid and appkey from https://leancloud.app
+# more info please open https://valine.js.org
+valine:
   enable: true
-# app_id
-  leancloud_appid: Iyvk2GuWouA0FTJAC6xoCRwT-gzGzoHsz
-# app_key
-  leancloud_appkey: wufI4HRteXarydeEPr2uBTAV
-# placeholde
-  placeholder: “Just go go"
-
+  appid:  Iyvk2GuWouA0FTJAC6xoCRwT-gzGzoHsz # your leancloud app id
+  appkey: wufI4HRteXarydeEPr2uBTAV # your leancloud app key
+  notify: true # mail notifier , https://github.com/xCss/Valine/wiki
+  verify: true # Verification code
+  placeholder: 非Github帐号登录用户，在此处留言 # comment box placeholder
+  avatar:   # gravatar style
+  guest_info: 昵称,邮件,网址 # custom comment header
+  pageSize: 10 # pagination size
+  # path: window.location.pathname
