@@ -6,7 +6,7 @@ author: "Slc"
 #header-img: "img/post-bg-dreamer.jpg"
 header-mask: 0.4
 tags:
-  - 黑苹果
+  - hackintosh
 ---
 自从装了win和mac双系统之后，一直出现mac和win时间不同步的问题，查阅资料找到解决方法，避免以后忘记。
 
