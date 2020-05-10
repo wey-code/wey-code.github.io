@@ -4,6 +4,7 @@ title: "线性代数"
 subtitle: "基础知识"
 author: "Slc"
 #header-img: "img/post-bg-dreamer.jpg"
+mathjax: ture
 header-mask: 0.4
 tags:
   - 线性代数
