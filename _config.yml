@@ -13,7 +13,7 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     u/5092373755
+weibo_username:     lcshen99
 #zhihu_username:     huxpro
 github_username:    wey-code
 #twitter_username:   huxpro

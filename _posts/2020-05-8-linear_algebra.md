@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "线性代数"
+title: "线性代数——特征向量与特征值的求解"
 subtitle: "基础知识"
 author: "Slc"
 #header-img: "img/post-bg-dreamer.jpg"
