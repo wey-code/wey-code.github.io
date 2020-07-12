@@ -13,6 +13,8 @@ tags:
 
 加油加油加油！
 # 每天亿遍 防止抑郁（士兵突击）
+<div>
+<iframe width="640" height="498" src="//player.bilibili.com/player.html?aid=91375222&bvid=BV1G7411u7mx&cid=156026003&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div>
 
-<iframe height="400" width="500" src="//player.bilibili.com/player.html?aid=91375222&bvid=BV1G7411u7mx&cid=156026003&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
