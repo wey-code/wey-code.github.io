@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "劝勉"
-subtitle: ""
+subtitle: "每天一遍 防止抑郁"
 author: "Slc"
 #header-img: "img/post-bg-dreamer.jpg"
 mathjax: ture
