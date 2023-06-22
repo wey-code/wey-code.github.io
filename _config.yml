@@ -118,7 +118,7 @@ friends: [
 # You can get your appid and appkey from https://leancloud.app
 # more info please open https://valine.js.org
 valine:
-  enable: true
+  enable: True
   appid:  Iyvk2GuWouA0FTJAC6xoCRwT-gzGzoHsz # your leancloud app id
   appkey: wufI4HRteXarydeEPr2uBTAV # your leancloud app key
   placeholder: 冲就完事了~ # comment box placeholder
