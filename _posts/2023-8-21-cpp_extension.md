@@ -152,7 +152,7 @@ torch::Tensor nms_diopi(torch::Tensor boxes, torch::Tensor scores, float iou_thr
   auto scores_p = toDiopiTensorHandle(scores);
   bool is_mock_cuda = boxes.device().type() == dipu::DIPU_DEVICE_TYPE;
 
-  // 此处的my_nms需要在 ext_kernel.h和ext_kernel.cpp 进行声明和实现
+  // 此处的my_nms需要在 ext_kernel.h 和 ext_kernel.cpp 进行声明和实现
   if (is_mock_cuda) {
     auto ret =
         my_nms(ch, outhandle, boxes_p, scores_p, iou_threshold, offset);
@@ -175,6 +175,6 @@ PYBIND11_MODULE(TORCH_EXTENSION_NAME, m) {
 
 # 参考资料：
 
-[1] https://zhuanlan.zhihu.com/p/348555597
+[1] [https://zhuanlan.zhihu.com/p/348555597](https://zhuanlan.zhihu.com/p/348555597)
 
-[2] https://pytorch.org/tutorials/advanced/cpp_extension.html
+[2] [https://pytorch.org/tutorials/advanced/cpp_extension.html](https://pytorch.org/tutorials/advanced/cpp_extension.html)
